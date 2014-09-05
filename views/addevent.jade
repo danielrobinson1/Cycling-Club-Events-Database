@@ -1,0 +1,27 @@
+extends layout
+
+block content
+
+	h1 Add Event
+
+	form#formAddUser(name="addevent",method="post",action="/addevent")
+		
+		table
+		
+			tr
+				td
+					p Date
+				td
+					input#inputEventDate(type="date", placeholder="date", name="date")
+			tr
+				td
+					p Name
+				td
+					input#inputEventName(type="text", placeholder="name", name="name")
+			tr
+				td
+					p Type
+				td
+					input#inputEventType(type="text", placeholder="type", name="type")
+
+		button#btnSubmit(type="submit") submit

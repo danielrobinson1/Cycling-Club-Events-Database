@@ -1,0 +1,28 @@
+extends layout
+
+block content
+
+	h1 Event List
+
+	table
+
+		tr
+			th 
+				p Date
+			th
+				p Name
+			th
+				p Type
+
+		each event, i in eventlist
+			tr
+				td
+					p= event.date
+				td
+					p= event.name
+				td
+					p= event.type
+				td
+					a(href= "http://localhost:8080/editevent") Edit
+				td
+					a(href= "http://localhost:8080") Add Me
