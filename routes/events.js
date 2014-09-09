@@ -126,12 +126,14 @@ router
 
 	*/
 
-	.get('/', function(req, res) {
+	.get('/list', function(req, res) {
 		Event.find(function(err, events) {
 			if (err)
 				res.send(err);
 
-			res.json(events);
+			res.render('eventlist', {
+            	"eventlist" : events, title: 'Manchester Wheelers | Event List'
+        	});
 		});
 	});
 
