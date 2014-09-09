@@ -31,17 +31,39 @@ router
 
 	*/
 
-	.post('/', function(req, res) {
+	// Changes
+
+	// Changed URL to from / to /addevent to match the form "action".
+	// May need to change the form action to "events/addevent".
+
+	// TODO Redirect to eventslist page.
+
+	.post('/addevent', function(req, res) {
 		
-		var event = new Event(); 		// create a new instance of the Event model
-		event.name = req.body.name;		// set the events name (comes from the request)
+		// Create a new instance of the Event model.
+
+		var event = new Event();
+		
+		// Set the events details from the form in the addevent view.
+
+		event.name = req.body.name;
+		event.date = req.body.date;
+		event.type = req.body.type;
 
 		// Save the event and check for errors
+
 		event.save(function(err) {
 			if (err)
 				res.send(err);
 
-			res.json({ message: 'Event created!' });
+			// Command prompt message to confirm event saved.
+
+			console.log(event.name + ' saved.');
+
+			// Redirect to home page for now.
+
+			//res.location("eventlist");
+			res.redirect("../");
 		});
 		
 	})
