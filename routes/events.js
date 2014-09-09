@@ -8,6 +8,30 @@ var Event   = require('../models/event');
 
 router
 
+	.get('/', function(req, res) {
+		res.render('index', { 
+			title: 'Manchester Wheelers | Events' 
+		});
+	})
+
+	// GET Render addevent view.
+
+	.get('/addevent', function(req, res) {
+		res.render('addevent', { 
+			title: 'Manchester Wheelers | Add Event' 
+		});
+	})
+
+	// GET Render editevent view
+
+	.get('/editevent', function(req, res) {
+		res.render('editevent', { 
+			title: 'Manchester Wheelers | Edit Event' 
+		});
+	})
+
+//-------------
+
 	/*
 
 	POST Add an event to the database.
