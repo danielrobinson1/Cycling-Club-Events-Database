@@ -1,0 +1,220 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"req",
+				"require"
+			],
+			[
+				"empl",
+				"employee_collection"
+			],
+			[
+				"prot",
+				"prototype"
+			],
+			[
+				"p",
+				"port"
+			],
+			[
+				"re",
+				"req"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"add",
+				"addevent"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "server.js",
+			"settings":
+			{
+				"buffer_size": 1099,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+		],
+		"width": 392.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/home/to sort/Bike Routes/Cheshire_Cobbled_Classic_2014.txt",
+		"/C/home/dev/wheelers_events/views/eventlist.jade",
+		"/C/home/dev/wheelers_events/views/layout.jade",
+		"/C/home/dev/wheelers_events/package.json",
+		"/C/home/dev/wheelers_events/public/stylesheets/style.css",
+		"/C/home/dev/wheelers_events/routes/index.js",
+		"/C/home/dev/wheelers_events/server.js",
+		"/C/home/dev/tutorial_build_a_restful_api_Copy/app/routes/index.js",
+		"/C/home/dev/tutorial_cwbuechler_getting_started_with_node_express_jade_mongodb/nodetest1/package.json",
+		"/C/home/dev/tutorial_build_a_restful_api/server.js",
+		"/C/home/dev/tutorial_simple_employee_database_app/app_old.js",
+		"/C/home/dev/wheelers_events_app/routes/users.js",
+		"/C/home/dev/wheelers_events_app/views/error.jade",
+		"/C/home/dev/tutorial_cwbuechler_getting_started_with_node_express_jade_mongodb/nodetest1/views/newuser.jade",
+		"/C/home/dev/tutorial_cwbuechler_getting_started_with_node_express_jade_mongodb/nodetest1/views/userlist.jade",
+		"/C/home/dev/tutorial_cwbuechler_getting_started_with_node_express_jade_mongodb/nodetest1/views/helloworld.jade",
+		"/C/home/dev/tutorial_cwbuechler_getting_started_with_node_express_jade_mongodb/nodetest1/views/newusr.jade",
+		"/C/home/dev/manchester_wheelers_whats_on_scraper/mcrwhls_whatson.js",
+		"/C/home/dev/scraping/thprd_4_BeavertonOnly_refactored.js"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"router",
+			"routerb",
+			"api",
+			"express"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"bearsRouter",
+			"router"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "server.js",
+					"settings":
+					{
+						"buffer_size": 1099,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 181.0,
+	"status_bar_visible": true
+}
