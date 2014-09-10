@@ -8,13 +8,15 @@ var Event   = require('../models/event');
 
 router
 
+	// GET Render home page.
+
 	.get('/', function(req, res) {
 		res.render('index', { 
 			title: 'Manchester Wheelers | Events' 
 		});
 	})
 
-	// GET Render editevent view
+	// GET Render editevent view.
 
 	.get('/editevent', function(req, res) {
 		res.render('editevent', { 
