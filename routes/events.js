@@ -62,10 +62,10 @@ router
 
 			console.log(event.name + ' saved.');
 
-			// Redirect to home page for now.
+			// Redirect to events list.
 
-			//res.location("eventlist");
-			res.redirect("../");
+			res.location("events");
+			res.redirect("list");
 		});
 		
 	})
