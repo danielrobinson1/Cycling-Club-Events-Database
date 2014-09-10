@@ -5,8 +5,8 @@ Work in progress. A database web application written in Node.js with Express, us
 
 No work has been done yet on the CSS side, so the interface is a little unexciting!
 
-View upcoming events:
+Screenshot 1 - View upcoming events:
 ![View upcoming events.](/docs/screenshots/screenshot1.png)
 
-Add a new event:
+Screenshot 2 - Add a new event:
 ![Add an event.](/docs/screenshots/screenshot2.png)
