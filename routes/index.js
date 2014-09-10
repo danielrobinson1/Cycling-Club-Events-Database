@@ -21,13 +21,6 @@ router
 		});
 	})
 
-
-.get('/test/delete/:event_id', function(req, res) {
-		res.render('eventlist', { 
-			title: 'Manchester Wheelers | Event List' 
-		});
-	})
-
 // DELETE Remove event with the specified id.
 // Working
 
@@ -39,9 +32,6 @@ router
 				res.send(err);
 
 			res.json({ message: 'Successfully deleted' });
-			console.log('Event deleted');
-
-			res.redirect(".../events/list");
 		});
 	});
 
