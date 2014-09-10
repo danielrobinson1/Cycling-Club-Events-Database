@@ -14,14 +14,6 @@ router
 		});
 	})
 
-	// GET Render addevent view.
-
-	.get('/addevent', function(req, res) {
-		res.render('addevent', { 
-			title: 'Manchester Wheelers | Add Event' 
-		});
-	})
-
 	// GET Render editevent view
 
 	.get('/editevent', function(req, res) {
@@ -30,7 +22,13 @@ router
 		});
 	})
 
-//-------------
+	// GET Render addevent view.
+
+	.get('/addevent', function(req, res) {
+		res.render('addevent', { 
+			title: 'Manchester Wheelers | Add Event' 
+		});
+	})
 
 	/*
 
